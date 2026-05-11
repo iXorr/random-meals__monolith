@@ -1,44 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>СЛУЧАЙНАЯ ЕДА</title>
-    <link rel="stylesheet" href="/assets/styles/index.css">
-    <link rel="stylesheet" href="/assets/styles/media.css">
+    
     <link rel="icon" href="/assets/img/icon.svg">
+
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
-        <nav>
-            <div class="brand">
-                <img class="brand__logo" src="/assets/img/logo.svg" alt="logo">
-                <div class="brand__decorate-line"></div>
-                <p class="brand__text">Кулинарный рандомайзер</p>
+
+<body class="bg-[#FAF4F1] min-h-screen flex flex-col">
+    <header class="bg-[#FFB38C] rounded-b-[15px] px-6 h-[100px] flex items-center">
+        <nav class="flex justify-between items-center w-full h-full">
+            <div class="flex items-center gap-6">
+                <img class="w-[85px] h-auto" src="/assets/img/logo.svg" alt="logo">
+
+                <div class="w-px h-[50px] bg-black"></div>
+
+                <p class="text-[1.2rem] font-medium">
+                    Кулинарный рандомайзер
+                </p>
             </div>
 
-            <div class="panel">
-                <div class="panel__option random">
-                    <a href="/">
-                        <img src="/assets/img/random-symbol.svg" alt="random">
-                        <button>Перемешать</button>
-                    </a>
-                </div>
+            <div class="flex items-center gap-6">
+                <a href="/"
+                class="flex items-center gap-3 bg-[#c47145] px-4 py-2 rounded-[10px]
+                        shadow-[0_5px_#96532e] active:translate-y-[5px]
+                        active:shadow-none transition">
 
-                <form method="post" class="panel__option search">
-                    <input type="text" name="userText">
-                    <input type="submit" value="Поиск">
-                </form>
+                    <img src="/assets/img/random-symbol.svg" class="w-[35px] h-[35px]" alt="random">
+
+                    <span class="text-[0.9rem]">Перемешать</span>
+                </a>
             </div>
         </nav>
     </header>
 
-    <main>
+    <main class="p-6 flex-1">
         {{{ body }}}
     </main>
 
-    <footer>
+    <footer class="bg-[#FFB38C] h-[60px] flex items-center justify-center
+                rounded-t-[15px] text-[0.9rem] italic text-center">
         <p>Сделано с использованием TheMealDB</p>
     </footer>
 </body>
+
 </html>

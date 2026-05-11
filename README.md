@@ -8,8 +8,12 @@
 
 ## DESCRIPTION
 
-...
+This is an experimental project created as part of a small team work.
+
+We (I and my classmates) used the free API to fetch meal data and experimented with integrating an automatic translation module from npm. Interestingly, the translation results were often inaccurate, but in some cases, they produced unexpected and creative outputs that made the project even more unique. And just fun.
+
+As a result, the project evolved into a playful and dynamic “food mixing” website with unpredictable content behavior.
 
 ## USAGE
 
-...
+Just follow the repository link and view a meal page.

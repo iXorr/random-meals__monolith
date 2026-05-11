@@ -21,7 +21,7 @@ const db_con = mysql.createConnection({
     host: 'localhost',
     database: 'cooking_app',
     user: 'root',
-    password: ''
+    password: 'qwe123'
 });
 
 // ROUTING
