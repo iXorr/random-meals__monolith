@@ -79,10 +79,6 @@ body {
                     font-size: var(--big-text);
                 }
 
-            /* .panel {
-                background: violet;
-            } */
-
                 .panel__option {
                     display: flex;
                 }

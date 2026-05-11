@@ -1,9 +1,15 @@
-# random_meals
+# Food mixing website
 
-This project is based on NodeJS and powered by ExpressJS. Follow the guide to view and use it:
+![JavaScript](https://img.shields.io/badge/JavaScript-%23C9A400.svg?style=for-the-badge&logo=javascript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-%236DA55F.svg?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-%23F39C12.svg?style=for-the-badge&logo=express&logoColor=white)
+![Handlebars](https://img.shields.io/badge/Handlebars-%23F0772B.svg?style=for-the-badge&logo=handlebarsdotjs&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-%2366B2FF.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
-1) Install NodeJS if you don't have it;
-2) Browse folder "/app" and execute command "npm install" to pull required node_modules;
-3) Use web-server with supporting MySQL. In folder "/db" is dump for new database. Create it;
-4) In file "/app/index.js" is code part called "DB CONNECT". Change configurate;
-5) Launch web-server and execute command "npm start" when you are in folder "/app".
+## DESCRIPTION
+
+...
+
+## USAGE
+
+...
